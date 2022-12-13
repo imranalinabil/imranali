@@ -1,0 +1,248 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.body{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Alfa Slab One', cursive;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/*header css start*/
+
+.header{
+	width: 100%;
+	background: url("../image/background.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 40px 0px 0px;
+}
+.header .home{
+	width: 100%;
+
+}
+
+
+.header .home .corner {
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+.header .home p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #3d2514;
+	margin: 0px 0px 0px;
+}
+.header .home span{
+	margin: 0px 0px 0px 6px;
+}
+.header .home .linking{
+	width: 100;
+	text-align: right;
+
+}
+.header .home .linking ul{
+	width: 100%;
+
+	
+}
+.header .home .linking ul li{
+	list-style: none;
+	display: inline-block;
+	
+}
+.header .home .linking ul li a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px 0px 0px 54px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #3d2514;
+  text-transform: uppercase;
+
+}
+.banner{
+	width: 100%;
+	padding: 30px 0px;
+
+}
+.banner p{
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 16px;
+	line-height: 32px;
+	font-weight: 0;
+	color: #3d2514;
+	margin: 90px 0px 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	
+}
+.banner p span{
+	width: ;
+	padding: 10px;
+	border: 2px dashed #3d2514;
+}
+.banner h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 120px;
+	line-height: 130px;
+	font-weight: 700px;
+	text-shadow: 1px 4px 10px #fff;
+	text-transform: uppercase;
+	color: #3d2514;
+	margin: 10px 0px 0px;
+}
+.banner h3{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: 700px;
+	text-shadow: 1px 4px 10px #fff;
+	text-transform: uppercase;
+	color: #3d2514;
+	
+}
+/*header css end*/
+
+/*info css start*/
+.info{
+	width: 100%;
+	padding: 80px 0px 47px;
+}
+.info .card{
+	margin: 0px 0px 33px;
+	border: 1px solid #fff;
+}
+.info .card h5{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400px;
+	color: #fff;
+	margin: 10px 0px 0px;
+
+
+}
+.info .card h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 34px;
+	line-height: 44px;
+	font-weight: 600px;
+	color: #fff;
+	margin: 0px 0px;
+
+
+}
+
+/*info css end*/
+
+/*choose css start*/
+.choose{
+	width: 100%;
+	padding: 60px 0px;
+	
+}
+.choose .inner-choose{
+	width: 100%;
+	padding: 0px 0px 80px;
+	text-align: center;
+}
+.choose .inner-choose h5{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 28px;
+	line-height: 38px;
+	font-weight: 200px;
+	color: #3d2514;
+	margin: 0px 0px 40px;
+}
+.choose .inner-choose h5 span{
+	background: #ffc045;
+	padding: 7px 14px;
+}
+
+
+.choose .inner-choose h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 44px;
+	line-height: 54px;
+	font-weight: 500px;
+	color: #3d2514;
+	margin: 0px 0px 20px;
+	
+}
+.choose .inner-choose p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 200px;
+	color: #3d2514	
+	
+}
+
+.tonoy{
+	width: 100%;
+	text-align: center;
+}
+.tonoy h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 34px;
+	line-height: 40px;
+	font-weight: 600px;
+	margin: 25px 0px 8px;
+	color: #3d2514
+
+}
+.tonoy p{
+		font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 200px;
+	margin: 0px 0px 25px;
+	color: #3d2514	
+}
+
+.tonoy a{
+	display: inline-block;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	
+}
+.tonoy .btn-primary{
+	background: #bf2222;
+	padding: 10px 35px;
+	color: #fff;
+
+}
+.tonoy .btn-primary:hover{
+	background: #000;
+	padding: 10px 35px;
+	color: #bf2222;
+
+}
+
+/*choose css end*/

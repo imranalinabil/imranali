@@ -1,0 +1,9 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	width: 100%;
+	padding: 20px 0px;
+	background: images/hb.png;
+}
